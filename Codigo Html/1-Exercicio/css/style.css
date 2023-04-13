@@ -1,0 +1,32 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+.hverde{
+    color: blueviolet;
+    text-align: right;
+}
+#htamanho{
+    font-size: x-large;
+}
+div{
+border: 5px solid gray;
+height: 200px;
+width: 300px;
+margin: 10px;
+padding: 30px;
+}
+.menu{
+background: black;
+overflow: hidden;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: inline-block;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
