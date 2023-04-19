@@ -1,5 +1,5 @@
-h1{
-    color: blue;
+h1, h2, h3, h4{
+    color: black;
     text-align: center;
 }
 .hverde{
@@ -10,12 +10,26 @@ h1{
     font-size: x-large;
 }
 div{
-border: 5px solid gray;
-height: 200px;
-width: 300px;
-margin: 10px;
+border: 10px solid black;
+argin: 10px;
 padding: 30px;
+background-color: gray;
 }
+
+.roda{
+border: 5px;
+background-color: gray;
+border: 10px solid black
+}
+
+.cabecalho{
+    border: 5px solid black;
+    height: 100px;
+    padding: 30px;
+    background-color: gray;
+}
+
+
 .menu{
 background: black;
 overflow: hidden;
@@ -23,7 +37,7 @@ overflow: hidden;
 .menu a{
     color: white;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 2px 25px;
     display: inline-block;
 }
 .menu a:hover{
